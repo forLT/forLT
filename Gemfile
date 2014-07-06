@@ -43,6 +43,7 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem "therubyracer"
 gem "less-rails"
 gem "twitter-bootstrap-rails"
+gem "knockoutjs-rails"
 
 
 # Use ActiveModel has_secure_password

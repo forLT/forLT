@@ -1,1 +1,16 @@
+<script>
+  $(function(){
+      // ViewModelを定義
+      function ViewModel(){
+          // はじめは空文字列を指定
+          this.message = ko.observable('');
+      }
+      // バインディングスタート
+      ko.applyBindings( new ViewModel() );
+  });
+</script>
 <h1><%= @title %></h1>
+
+<%= text_field_tag :input_text, '', placeholder: '入力された文字が下に表示されます', data: {bind: "value: message,  valueUpdate: 'afterkeydown'"} %>
+<%= content_tag(:p, :result, data: {bind: "text: message"}) %>
+
