@@ -3,7 +3,7 @@
 SIN="sinsnk"
 YUI="yuinchirn"
 
-if [ $# = 3]; then
+if [ $# = 4 ]; then
 	#add->commit->push
 	git add $1
 	git commit -m $2
