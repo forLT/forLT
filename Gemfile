@@ -30,6 +30,16 @@ gem 'kaminari', '~> 0.16.1'
 
 gem 'pry-byebug'
 
+# js
+gem 'threejs-rails', '~> 0.0.2'
+gem 'chart-js-rails'
+
+gem 'bootstrap-sass', '~> 3.2.0'
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
