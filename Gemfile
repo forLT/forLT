@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 
 gem 'kaminari', '~> 0.16.1'
 
+gem 'pry-byebug'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
