@@ -28,7 +28,7 @@ Rails.application.routes.draw do
 
   # Example resource route with sub-
   resources:projects
-  resources:angulars
+  resources:knockouts
   #   resources :products do
   #     resources :comments, :sales
   #     resource :seller
