@@ -1,5 +1,5 @@
 class ProjectsController < ApplicationController
   def index
-    @name = "テスト"
+    @name = "Projects"
   end
 end
