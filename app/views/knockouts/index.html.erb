@@ -9,7 +9,7 @@
       ko.applyBindings( new ViewModel() );
   });
 </script>
-<h1><%= @title %></h1>
+<h1><%= @title %> アプリ</h1>
 
 <%= text_field_tag :input_text, '', placeholder: '入力された文字が下に表示されます', data: {bind: "value: message,  valueUpdate: 'afterkeydown'"} %>
 <%= content_tag(:p, :result, data: {bind: "text: message"}) %>
